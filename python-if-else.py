@@ -7,6 +7,7 @@ import sys
 
 
 if __name__ == '__main__':
+    #Adding Comments
     print(sys.argv[0])
     n = int(sys.argv[1])
     l = n % 2
