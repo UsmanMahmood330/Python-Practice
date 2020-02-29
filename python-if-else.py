@@ -7,7 +7,8 @@ import sys
 
 
 if __name__ == '__main__':
-    n = int(input().strip())
+    print(sys.argv[0])
+    n = int(sys.argv[1])
     l = n % 2
     if (l == 1) or (n % 2 == 0 and n>= 6 and n<= 20):
         print("Weird")
